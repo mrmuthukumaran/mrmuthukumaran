@@ -8,7 +8,7 @@ I am an aspiring developer with a focus on front-end technologies. Currently, I 
 
 ## Skills & Technologies
 
-html,css
+html,css,Python
 
 ## Top Projects
 
