@@ -21,6 +21,28 @@ I am an aspiring developer with a focus on front-end technologies. Currently, I 
 
 - [Food Website](https://github.com/mrmuthukumaran/mrmuthukumaran): A simple responsive Food Website built using HTML and CSS. It showcases popular South Indian dishes like dosa, idly, and biryani. Stars: 0, Language: HTML, Forks: 0, Open Issues: 0
 
+******  📌 Features******
+
+🎨 Clean and modern UI with responsive design.
+
+🍛 Menu section showcasing different food items with images.
+
+🔗 Smooth scroll navigation (clicking “Menu” or “Contact” scrolls to section).
+
+📱 Social media integration in footer (WhatsApp, Instagram, Email).
+
+⬆️ “Back to Top” button for easy navigation.
+
+**🛠️ Technologies Used**
+
+HTML5 – structure of the website.
+
+CSS3 – styling and responsiveness.
+
+Google Fonts – for typography.
+
+Font Awesome – for social media and contact icons.
+
 ## GitHub Stats
 
 🌟 **Public Repositories**: 1  
