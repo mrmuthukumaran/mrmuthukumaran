@@ -15,11 +15,99 @@ body {
     padding: 5px;
 }
 
+/* night mode   */
+.dark {
+    background-color: #020243;
+    color: #E0E0E0;
+
+}
+
+.dark .head {
+    background-color: #980404;
+    color: #f7efef;
+}
+
+.dark .q {
+    color: #f7efef;
+}
+
+.dark a {
+    color: #f7efef;
+}
+
+/* Button  for day and night theme */
+.toggle {
+    margin-top: 3px;
+    padding-left: 90%;
+}
+
+.button {
+    background-color: rgb(195, 255, 0);
+    border: none;
+    padding: 10px;
+    color: #fcf9f9;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+
+
+}
+
+.dark button:hover {
+    background-color: rgb(190, 234, 14);
+    color: rgb(243, 244, 245);
+    border: solid;
+    border-width: 6px;
+    transform: scale(1.05);
+}
+
+button:hover {
+    background-color: #f7efef;
+    border: solid;
+    color: red;
+    border-width: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.05);
+
+}
+
+.dark .container div {
+    text-align: center;
+    padding: 10px;
+    background: #fcfcf89a;
+    border-radius: 12px;
+
+    border: solid;
+    border-width: 3px;
+}
+
+.dark .bottom {
+    background-color: #ccc;
+    color: #222;
+}
+
+.dark .socio {
+    color: #222;
+}
+
+.dark .socio ul a i {
+    color: #edf2f4;
+    background-color: green;
+}
+
+.dark .socio ul a i:hover {
+    background-color: white;
+    color: green;
+}
+
 
 .head {
     /* header */
     color: rgb(31, 22, 22);
-    background-color: rgb(245, 225, 98);
+    background-color: rgb(244, 213, 12);
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -42,10 +130,12 @@ body {
     margin-top: 30px;
     padding-right: 3px;
     font-size: 20px;
+
 }
 
 .head nav ul a {
     text-decoration: none;
+    transform: scale(1.05)
 }
 
 .head nav ul li:hover {
@@ -53,6 +143,7 @@ body {
     cursor: pointer;
     opacity: 1s;
     font-size: 25px;
+
 
 
 }
@@ -215,6 +306,7 @@ html {
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+
 }
 
 .topp:hover {
@@ -259,7 +351,8 @@ html {
     .container {
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     }
-    .bottom{
+
+    .bottom {
         font-size: 2px;
     }
 }
@@ -298,8 +391,9 @@ html {
     .container h2 {
         font-size: 16px;
     }
-    .bottom{
-        font-size:14px ;
+
+    .bottom {
+        font-size: 14px;
         padding: 18px;
     }
 }
