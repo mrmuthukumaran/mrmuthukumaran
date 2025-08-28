@@ -10,21 +10,30 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1;
-    background-color: #fffffc;
-    color: #333;
+    background-image: url("images/float lem.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #f7f4f4;
     padding: 5px;
+
 }
 
 /* night mode   */
 .dark {
-    background-color: #020243;
+    background-image: url("images/bg\ camp.jpg");
     color: #E0E0E0;
+
+
+
 
 }
 
 .dark .head {
-    background-color: #980404;
+    background-color: #971717;
     color: #f7efef;
+
 }
 
 .dark .q {
@@ -51,6 +60,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     transition: transform 0.3s ease;
+
 
 
 }
@@ -107,7 +117,7 @@ button:hover {
 .head {
     /* header */
     color: rgb(31, 22, 22);
-    background-color: rgb(244, 213, 12);
+    background-color: rgb(247, 174, 28);
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -117,6 +127,7 @@ button:hover {
     border-radius: 10px;
     margin-bottom: 20px;
     word-spacing: 5px;
+
 }
 
 .nav {
@@ -130,6 +141,8 @@ button:hover {
     margin-top: 30px;
     padding-right: 3px;
     font-size: 20px;
+
+
 
 }
 
@@ -173,9 +186,10 @@ button:hover {
 .para-story {
     margin: 15px auto;
     max-width: 900px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
     text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Food Grid */
@@ -217,11 +231,11 @@ button:hover {
 .container h2 {
     margin-top: 10px;
     font-size: 16px;
-    color: #222;
+    color: #222222;
 }
 
 .bottom {
-    background-color: rgb(49, 47, 47);
+    background-color: rgb(4, 3, 102);
     color: white;
     border-radius: 10px;
     padding: 8px;
@@ -296,7 +310,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.topp {
+.scroll {
     background-color: rgb(22, 7, 227);
     padding: 20px;
     border-radius: 40px;
@@ -309,7 +323,7 @@ html {
 
 }
 
-.topp:hover {
+.scroll:hover {
     background-color: #f7efef;
     color: #f80606;
     transition: 0.5s;
